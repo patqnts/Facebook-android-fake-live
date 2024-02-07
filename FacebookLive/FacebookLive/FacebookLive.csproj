@@ -57,6 +57,24 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cam.png" />
+	  <None Remove="Resources\Images\comment.png" />
+	  <None Remove="Resources\Images\dropdown.png" />
+	  <None Remove="Resources\Images\eyes.png" />
+	  <None Remove="Resources\Images\flash.png" />
+	  <None Remove="Resources\Images\graph.png" />
+	  <None Remove="Resources\Images\live.png" />
+	  <None Remove="Resources\Images\mic.png" />
+	  <None Remove="Resources\Images\rect.png" />
+	  <None Remove="Resources\Images\ser.png" />
+	  <None Remove="Resources\Images\share.png" />
+	  <None Remove="Resources\Images\sticker.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Camera.MAUI" Version="1.4.4" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.1" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
